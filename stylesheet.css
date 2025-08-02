@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* CSS styling */
+body {
+    background-color: #F4D04E;
+    font-family: "Figtree", sans-serif;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+    margin: 1.5rem;
+}
+
+.content-container {
+    background-color: #FFFFFF;
+    max-width: 24em;
+    padding: 1.5em;
+    transition: box-shadow 0.3s ease;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem #111111;
+    border-style: solid;
+    border-width: 0.01em;
+}
+
+#blog-image {
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#caption {
+    background-color: #F4D04E;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+#date {
+    margin-top: 0.5rem;
+}
+
+#title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+section p {
+    color: hsl(0, 0%, 42%);
+}
+
+.content-container:hover #title {
+    color: #F4D04E;
+}
+
+.content-container:hover {
+    box-shadow: 1rem 1rem #111111;
+    
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer img {
+    max-height: 2rem;
+    max-width: 2rem;
+}
