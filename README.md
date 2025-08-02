@@ -25,5 +25,5 @@ Your users should be able to:
 ## Author
 - [Tanisha Somwaru](https://github.com/Tanisha-Somwaru)
 
-# Demo
+## Demo
 - [Website preview](https://blog-preview-kohl.vercel.app/)
